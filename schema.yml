@@ -1,0 +1,60 @@
+openapi: 3.0.3
+info:
+  title: ''
+  version: 1.0.0
+paths:
+  /api/check/:
+    post:
+      operationId: api_check_create
+      tags:
+      - api
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CheckerRequest'
+          application/x-www-form-urlencoded:
+            schema:
+              $ref: '#/components/schemas/CheckerRequest'
+          multipart/form-data:
+            schema:
+              $ref: '#/components/schemas/CheckerRequest'
+        required: true
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      - {}
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Checker'
+          description: ''
+components:
+  schemas:
+    Checker:
+      type: object
+      properties:
+        text:
+          type: string
+          maxLength: 1000000
+      required:
+      - text
+    CheckerRequest:
+      type: object
+      properties:
+        text:
+          type: string
+          minLength: 1
+          maxLength: 1000000
+      required:
+      - text
+  securitySchemes:
+    basicAuth:
+      type: http
+      scheme: basic
+    cookieAuth:
+      type: apiKey
+      in: cookie
+      name: sessionid

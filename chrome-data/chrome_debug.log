@@ -1,0 +1,15 @@
+[15353:259:0505/183044.129537:WARNING:chrome_main_delegate.cc(750)] This is Chrome version 124.0.6367.119 (not a warning)
+[15353:259:0505/183044.575854:INFO:chrome_browser_cloud_management_controller.cc(168)] Starting CBCM Controller Initialization
+[15353:259:0505/183044.575923:INFO:chrome_browser_cloud_management_controller.cc(196)] No machine level policy manager exists.
+[15353:259:0505/183044.625235:WARNING:browser_management_service.cc(128)] EnterpriseLogoUrl fetch failed with error code -1 and MIME type 
+[15371:259:0505/183045.310469:WARNING:runtime_features.cc(730)] AttributionReportingCrossAppWeb cannot be enabled in this configuration. Use --enable-features=ConversionMeasurement,AttributionReportingCrossAppWeb in addition.
+[15370:259:0505/183045.311562:WARNING:runtime_features.cc(730)] AttributionReportingCrossAppWeb cannot be enabled in this configuration. Use --enable-features=ConversionMeasurement,AttributionReportingCrossAppWeb in addition.
+[15373:259:0505/183046.547222:WARNING:runtime_features.cc(730)] AttributionReportingCrossAppWeb cannot be enabled in this configuration. Use --enable-features=ConversionMeasurement,AttributionReportingCrossAppWeb in addition.
+[15372:259:0505/183046.578286:WARNING:runtime_features.cc(730)] AttributionReportingCrossAppWeb cannot be enabled in this configuration. Use --enable-features=ConversionMeasurement,AttributionReportingCrossAppWeb in addition.
+[15353:259:0505/183048.461403:WARNING:CONSOLE(0)] "Third-party cookie will be blocked. Learn more in the Issues tab.", source: chrome://new-tab-page/ (0)
+[15353:259:0505/183049.094697:INFO:CONSOLE(0)] "[DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o", source: https://www.check-plagiarism.com/pro/profile (0)
+[15353:259:0505/183049.094946:INFO:CONSOLE(0)] "[DOM] Input elements should have autocomplete attributes (suggested: "new-password"): (More info: https://goo.gl/9p2vKq) %o", source: https://www.check-plagiarism.com/pro/profile (0)
+[15353:259:0505/183049.095167:INFO:CONSOLE(0)] "[DOM] Input elements should have autocomplete attributes (suggested: "new-password"): (More info: https://goo.gl/9p2vKq) %o", source: https://www.check-plagiarism.com/pro/profile (0)
+[15367:14339:0505/183151.369062:WARNING:sqlite_persistent_store_backend_base.cc(198)] Failed to post task from FlushAndNotifyInBackground@net/extras/sqlite/sqlite_persistent_store_backend_base.cc:247 to client_task_runner_.
+[15367:14339:0505/183151.381012:WARNING:sqlite_persistent_store_backend_base.cc(198)] Failed to post task from FlushAndNotifyInBackground@net/extras/sqlite/sqlite_persistent_store_backend_base.cc:247 to client_task_runner_.
+[15353:259:0505/183151.414212:WARNING:pref_notifier_impl.cc(41)] Pref observer for media_router.cast_allow_all_ips found at shutdown.
